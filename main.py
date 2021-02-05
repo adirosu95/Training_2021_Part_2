@@ -1,4 +1,6 @@
-print("Start")
+import numpy
+import pandas as pd
 
 
-print('Stop')
+df = pd.read_csv('Salaries.csv')
+print(df)
